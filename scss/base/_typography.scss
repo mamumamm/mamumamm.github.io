@@ -6,6 +6,35 @@
         url('../scss/base/cartoon-script/CARSC.ttf') format('truetype');
 }
 
+// FONT-FAMILY: Poppins
+@font-face {
+   font-family: 'poppins-black';
+   src: url('../scss/base/Poppins/Poppins-Black.ttf');
+   src: url('../scss/base/Poppins/Poppins-Black.ttf') format('ttf'),
+        url('../scss/base/Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'poppins-semiBold';
+   src: url('../scss/base/Poppins/Poppins-SemiBold.ttf');
+   src: url('../scss/base/Poppins/Poppins-SemiBold.ttf') format('ttf'),
+        url('../scss/base/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'poppins-medium';
+   src: url('../scss/base/Poppins/Poppins-Medium.ttf');
+   src: url('../scss/base/Poppins/Poppins-Medium.ttf') format('ttf'),
+        url('../scss/base/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'poppins-regular';
+   src: url('../scss/base/Poppins/Poppins-Regular.ttf');
+   src: url('../scss/base/Poppins/Poppins-Regular.ttf') format('ttf'),
+        url('../scss/base/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
 // FONT-FAMILY: GAEGU
 @font-face {
    font-family: 'Gaegu';

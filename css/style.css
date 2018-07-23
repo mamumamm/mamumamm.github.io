@@ -45,6 +45,22 @@ table {
   src: url("../scss/base/cartoon-script/CARSC.ttf");
   src: url("../scss/base/cartoon-script/CARSC.ttf") format("ttf"), url("../scss/base/cartoon-script/CARSC.ttf") format("truetype"); }
 @font-face {
+  font-family: 'poppins-black';
+  src: url("../scss/base/Poppins/Poppins-Black.ttf");
+  src: url("../scss/base/Poppins/Poppins-Black.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-semiBold';
+  src: url("../scss/base/Poppins/Poppins-SemiBold.ttf");
+  src: url("../scss/base/Poppins/Poppins-SemiBold.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-medium';
+  src: url("../scss/base/Poppins/Poppins-Medium.ttf");
+  src: url("../scss/base/Poppins/Poppins-Medium.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-regular';
+  src: url("../scss/base/Poppins/Poppins-Regular.ttf");
+  src: url("../scss/base/Poppins/Poppins-Regular.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-Regular.ttf") format("truetype"); }
+@font-face {
   font-family: 'Gaegu';
   src: url("../scss/base/Gaegu/Gaegu-Bold.ttf");
   src: url("../scss/base/Gaegu/Gaegu-Bold.ttf") format("ttf"), url("../scss/base/Gaegu/Gaegu-Bold.ttf") format("truetype"); }
@@ -263,7 +279,7 @@ table {
 .work .row {
   padding: 30px 0; }
   .work .row .content-work {
-    padding: 20px 0 0; }
+    padding: 20px 0 5px; }
     .work .row .content-work:nth-child(1) {
       background-color: #9dbcbc; }
     .work .row .content-work:nth-child(2) {
@@ -287,14 +303,26 @@ table {
           width: 320px;
           margin-top: 0; } }
 
-@media (min-width: 1200px) {
-  .portfolio .modal-dialog-centered {
-    max-width: 1000px; } }
-
 @font-face {
   font-family: 'CRS';
   src: url("../scss/base/cartoon-script/CARSC.ttf");
   src: url("../scss/base/cartoon-script/CARSC.ttf") format("ttf"), url("../scss/base/cartoon-script/CARSC.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-black';
+  src: url("../scss/base/Poppins/Poppins-Black.ttf");
+  src: url("../scss/base/Poppins/Poppins-Black.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-semiBold';
+  src: url("../scss/base/Poppins/Poppins-SemiBold.ttf");
+  src: url("../scss/base/Poppins/Poppins-SemiBold.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-medium';
+  src: url("../scss/base/Poppins/Poppins-Medium.ttf");
+  src: url("../scss/base/Poppins/Poppins-Medium.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'poppins-regular';
+  src: url("../scss/base/Poppins/Poppins-Regular.ttf");
+  src: url("../scss/base/Poppins/Poppins-Regular.ttf") format("ttf"), url("../scss/base/Poppins/Poppins-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Gaegu';
   src: url("../scss/base/Gaegu/Gaegu-Bold.ttf");
@@ -348,13 +376,13 @@ body {
       min-height: 600px; } }
 
 .title {
-  font-family: 'Gaegu', cursive;
+  font-family: 'poppins-medium';
   letter-spacing: 2px;
   font-size: 30px;
   color: #fff; }
   @media screen and (min-width: 1200px) {
     .title {
-      font-size: 50px; } }
+      font-size: 40px; } }
 
 .social__links .social__links-icon {
   display: inline-block;
@@ -448,7 +476,7 @@ body {
       .banner__grid1 .banner--left .banner--left__text {
         margin-top: 200px; } }
     .banner__grid1 .banner--left .banner--left__text h1 {
-      font-family: 'Gaegu', cursive;
+      font-family: 'poppins-semiBold';
       font-weight: 700;
       font-size: 40px; }
       @media screen and (min-width: 667px) {
@@ -467,7 +495,7 @@ body {
         .banner__grid1 .banner--left .banner--left__text h3 {
           font-size: 30px; } }
   .banner__grid1 .banner--right {
-    font-family: 'Gaegu', cursive;
+    font-family: 'poppins-regular';
     letter-spacing: 1px;
     padding: 80px 20px;
     background: url(../../image/banner-right.svg) 0 0 no-repeat;
