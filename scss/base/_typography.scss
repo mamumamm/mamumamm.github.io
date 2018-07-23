@@ -1,0 +1,29 @@
+// FONT-FAMILY: CARTOON SCRIPT
+@font-face {
+   font-family: 'CRS';
+   src: url('../scss/base/cartoon-script/CARSC.ttf');
+   src: url('../scss/base/cartoon-script/CARSC.ttf') format('ttf'),
+        url('../scss/base/cartoon-script/CARSC.ttf') format('truetype');
+}
+
+// FONT-FAMILY: GAEGU
+@font-face {
+   font-family: 'Gaegu';
+   src: url('../scss/base/Gaegu/Gaegu-Bold.ttf');
+   src: url('../scss/base/Gaegu/Gaegu-Bold.ttf') format('ttf'),
+        url('../scss/base/Gaegu/Gaegu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Gaegu';
+   src: url('../scss/base/Gaegu/Gaegu-Light.ttf');
+   src: url('../scss/base/Gaegu/Gaegu-Light.ttf') format('ttf'),
+        url('../scss/base/Gaegu/Gaegu-Light.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Gaegu';
+   src: url('../scss/base/Gaegu/Gaegu-Regular.ttf');
+   src: url('../scss/base/Gaegu/Gaegu-Regular.ttf') format('ttf'),
+        url('../scss/base/Gaegu/Gaegu-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,186 @@
+.modal__about-me {
+	.modal-dialog {
+
+		.about {
+			margin-bottom: 70px;
+
+			h2 {
+				font-size: 20px;
+			}
+
+			.intro {
+				max-width: 285px;
+
+				@media (min-width: 667px) {
+					max-width: 600px;
+				}
+				@media (min-width: 1200px) {
+					max-width: 700px;
+				}
+
+				img {
+					height: 100px;
+					width: 100px;
+					display: block;
+
+					@media (min-width: 991px) {
+						margin-right: 40px!important;
+					}
+				}
+
+				.media-body {
+					p {
+						line-height: 1.4;
+					}
+				}
+			}
+		}
+		
+		.skill {
+			
+			.skill__percentage-circle {
+				background: url(../../image/bg-skills.jpg) 0 no-repeat;
+				background-size: cover;
+				min-height: 380px;
+				padding: 20px;
+				margin-bottom: 70px;
+				
+				.html,
+				.css,
+				.js,
+				.design {
+					width: auto;
+
+					.prec{
+					    top: 20px;
+					    position: relative;
+					    font-size: 20px;
+					    color: #83e499;
+
+					     @media (min-width: 1200px) {
+							top: 40px;
+							font-size: 30px;
+						}
+					}
+
+					.circle{
+					    position: relative;
+					    top: 5px;
+					    left: 5px;
+					    text-align: center;
+					    width: 60px;
+					    height: 60px;
+					    border-radius: 100%;
+					    background-color: #343a40;
+
+					    @media (min-width: 1200px) {
+							width: 110px;
+							height: 110px;
+						}
+					}
+
+					.active-border{
+					    position: relative;
+					    text-align: center;
+					    width: 70px;
+					    height: 70px;
+					    border-radius: 100%;
+
+					    @media (min-width: 1200px) {
+							width: 120px;
+							height: 120px;
+						}
+					}
+
+					h4 {
+
+						@media (min-width: 1200px) {
+							letter-spacing: 1.5px;
+							font-size: 25px;
+						}
+					}
+				}
+
+				.html {
+					.prec {
+						color: #e44f26;
+					}
+					.active-border {
+						background-color: #e44f26;
+						background-image: 
+							    linear-gradient(160deg, transparent 50%, #eabdaa 50%), 
+							    linear-gradient(90deg, #eabdaa 50%, transparent 50%);
+					}
+				}
+				.css {
+					.prec {
+						color: #1572B6;
+					}
+					.active-border {
+						background-color: #1572B6;
+						background-image: 
+							    linear-gradient(160deg, transparent 50%, #a6cae4 50%), 
+							    linear-gradient(90deg, #a6cae4 50%, transparent 50%);
+					}
+				}
+				.js {
+					.prec {
+						color: #f3d013;
+					}
+					.active-border {
+						background-color: #f3d013;
+						background-image: 
+							    linear-gradient(160deg, transparent 50%, #ded394 50%), 
+							    linear-gradient(90deg, #ded394 50%, transparent 50%);
+					}
+				}
+				.design {
+					.prec {
+						color: #D13A33;
+					}
+					.active-border {
+						background-color: #D13A33;
+						background-image: 
+							    linear-gradient(160deg, transparent 50%, #ecaaa7 50%), 
+							    linear-gradient(90deg, #ecaaa7 50%, transparent 50%);
+					}
+				}
+			}
+		}
+
+		.knowledge {
+			.bar {
+				width: 98%;
+				background-color: #ddd;
+
+				.skill {
+				  text-align: right;
+				  padding-right: 10px;
+				  line-height: 40px;
+				  color: #fff;
+				}
+
+				.edit {
+					width: 90%;
+				}
+				.dev {
+					width: 20%;
+				}
+				.creativity {
+					width: 30%;
+				}
+				.pro {
+					width: 70%;
+				}
+
+				.edit,
+				.dev,
+				.creativity,
+				.pro {
+					background-color: #0a9754;
+				}
+			}
+		}
+	}
+	
+}

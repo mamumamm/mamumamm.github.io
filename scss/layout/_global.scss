@@ -1,0 +1,152 @@
+body {
+	color: #fff;
+	 a {
+	 	outline: none;
+	 	text-decoration: none!important;
+	 }
+	 p {
+		line-height: 1.2;
+	}
+}
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner--left,
+.banner--right {
+	// background-position: -700px;
+	min-height: 480px;
+	z-index: 10;
+	overflow: hidden;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.50);
+		z-index: -1;
+	}
+
+	@media screen and (min-width: 667px) {
+		min-height: 480px
+	}
+
+	@media screen and (min-width: 991px) {
+		min-height: 500px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		min-height: 600px;
+	}
+}
+
+.title {
+	font-family: 'Gaegu', cursive;
+	letter-spacing: 2px;
+	font-size: 30px;
+	color: #fff;
+	@media screen and (min-width: 1200px) {
+		font-size: 50px;
+	}
+}
+
+.social__links {
+	.social__links-icon {
+		display: inline-block;
+		padding: 0px 5px;
+
+	}
+	.social__links-icon a {
+	    display: block;
+	    width: 40px;
+	    height: 40px;
+	    background-size: 100% 200%;
+	    transition: .5s all;
+
+	    &:hover {
+	    	background-position: 0px -40px;
+	    }
+
+	    @media screen and (min-width: 1200px) {
+			width: 50px;
+	    	height: 50px;
+	    	&:hover {
+		    	background-position: 0px -50px;
+		    }
+		}
+	}
+    .facebook {
+    	background-image: url(../../image/facebook.png);
+    }
+    .twitter {
+    	background-image: url(../../image/twitter.png);
+    }
+    .google {
+    	background-image: url(../../image/google-plus.png);
+    }
+    .linkedin {
+    	background-image: url(../../image/linkedin.png);
+    }
+}
+
+.banner__bottom {
+	margin-top: 175px;
+
+	.modal__title {
+		text-decoration: none;
+
+		.fab,
+		.fas,
+		.svg-inline--fa {
+			color: #0a9754;
+			font-size: 35px;
+		}
+
+		&:hover {
+			.title {
+				color: #0a9754;
+			}
+			.fab,
+			.fas,
+			.svg-inline--fa {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.modal-dialog {
+	font-family: 'CRS';
+
+	@media (min-width: 667px) {
+		max-width: 600px;
+	}
+
+	@media (min-width: 991px) {
+		max-width: 950px;
+	}
+
+	@media (min-width: 1200px) {
+		max-width: 1450px;
+	}
+
+
+	.modal-content {
+		background: #ccc;
+		border: none;
+
+		.modal-header {
+			border: none;
+		}
+
+		// .modal-body {
+
+		// 	@media (min-width: 667px) {
+		// 		padding: 16px 30px 0!important;
+		// 	}
+		// }
+	}
+}

@@ -1,0 +1,23 @@
+// import base 
+@import "base/reset";
+@import "base/typography";
+
+// import components
+@import "components/button";
+@import "components/carousel";
+@import "components/navigation";
+@import "components/modal__about-me";
+@import "components/modal__contact";
+@import "components/modal__work";
+@import "components/modal__portfolio";
+
+// import helpers 
+@import "helpers/function";
+@import "helpers/variable";
+
+// import layout 
+@import "layout/global";
+@import "layout/banner-grid1";
+@import "layout/about-me";
+@import "layout/works";
+@import "layout/contacts";

@@ -1,0 +1,41 @@
+.work {
+	.row {
+		padding: 30px 0;
+		
+		.content-work {
+			padding: 20px 0 0;
+			&:nth-child(1) {
+				background-color: #9dbcbc;
+			}
+			&:nth-child(2) {
+				background-color: #999967;
+			}
+			&:nth-child(3) {
+				background-color: #fc6;
+			}
+			&:nth-child(4) {
+				background-color: #cccc9a;
+			}
+			&:nth-child(8) {
+				background-color: #9dbcbc;
+			}
+			&:nth-child(7) {
+				background-color: #999967;
+			}
+			&:nth-child(6) {
+				background-color: #fc6;
+			}
+			&:nth-child(5) {
+				background-color: #cccc9a;
+			}
+
+			img {
+				width: 270px;
+				@media (min-width: 1200px) {
+					width: 320px;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
