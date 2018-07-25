@@ -452,7 +452,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../../image/profile2.svg) -200px 15px no-repeat;
+    background: url(../image/profile2.svg) -200px 15px no-repeat;
     background-size: cover;
     transform: scale(1.2);
     z-index: -1; }
@@ -498,7 +498,7 @@ body {
     font-family: 'poppins-regular';
     letter-spacing: 1px;
     padding: 80px 20px;
-    background: url(../../image/banner-right.svg) 0 0 no-repeat;
+    background: url(../image/banner-right.svg) 0 0 no-repeat;
     background-size: cover; }
     .banner__grid1 .banner--right .media {
       color: #fff; }
@@ -540,17 +540,17 @@ body {
 
 .about-me {
   min-height: 380px;
-  background: url(../../image/m11.svg) -130px no-repeat;
+  background: url(../image/m11.svg) -130px no-repeat;
   box-sizing: border-box; }
 
 .works {
   min-height: 380px;
-  background: url(../../image/m22.jpg) 0 no-repeat;
+  background: url(../image/m22.jpg) 0 no-repeat;
   background-size: cover; }
 
 .contacts {
   min-height: 380px;
-  background: url(../../image/m33.jpg) 0 no-repeat;
+  background: url(../image/m33.jpg) 0 no-repeat;
   background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
