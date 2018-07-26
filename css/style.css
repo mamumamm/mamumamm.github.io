@@ -94,7 +94,7 @@ table {
     .modal__about-me .modal-dialog .about .intro .media-body p {
       line-height: 1.4; }
 .modal__about-me .modal-dialog .skill .skill__percentage-circle {
-  background: url(../../image/bg-skills.jpg) 0 no-repeat;
+  background: url(../image/bg-skills.jpg) 0 no-repeat;
   background-size: cover;
   min-height: 380px;
   padding: 20px;
@@ -204,7 +204,7 @@ table {
     background-color: #0a9754; }
 
 .modal__contact .modal-dialog .modal-content .modal-body {
-  background: url(../../image/maps.png) 0 no-repeat;
+  background: url(../image/maps.png) 0 no-repeat;
   background-size: cover;
   z-index: 10; }
   .modal__contact .modal-dialog .modal-content .modal-body::after {
@@ -402,13 +402,13 @@ body {
       .social__links .social__links-icon a:hover {
         background-position: 0px -50px; } }
 .social__links .facebook {
-  background-image: url(../../image/facebook.png); }
+  background-image: url(../image/facebook.png); }
 .social__links .twitter {
-  background-image: url(../../image/twitter.png); }
+  background-image: url(../image/twitter.png); }
 .social__links .google {
-  background-image: url(../../image/google-plus.png); }
+  background-image: url(../image/google-plus.png); }
 .social__links .linkedin {
-  background-image: url(../../image/linkedin.png); }
+  background-image: url(../image/linkedin.png); }
 
 .banner__bottom {
   margin-top: 175px; }
@@ -468,7 +468,7 @@ body {
     @media screen and (min-width: 1200px) {
       .banner__grid1 .banner--left::before {
         transform: scale(1.2);
-        background-position: -30px 5px; } }
+        background-position: -30px 30px; } }
   .banner__grid1 .banner--left .banner--left__text {
     margin-top: 150px;
     color: #fff; }
